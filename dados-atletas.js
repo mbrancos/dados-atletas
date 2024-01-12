@@ -37,28 +37,25 @@ class Atleta {
         return soma / notasComputadas.length;
     }
     obtemNomeAtleta(){
-      return this.nome
+      return this.nome;
     }
     obtemIdadeAtleta(){
-      return this.idade
+      return this.idade;
     }
     obtemPesoAtleta(){
-      return this.peso
+      return this.peso;
     }
     obtemNotasAtleta(){
-      return this.notas
+      return this.notas;
     }
-    obtemCategorias(){
-      this.calculaCategoria()
-      return atleta.calculaCategoria()
+    obtemCategoria(){
+      return this.calculaCategoria();
     }
     obtemIMC(){
-      this.calculaIMC()
-      return atleta.calculaIMC()
+      return this.calculaIMC();
     }
     obtemMediaValida(){
-      this.calculaMediaValida
-      return atleta.calculaMediaValida
+      return this.calculaMediaValida();
     }
     exibirInformacoes() {
       // Ordena as notas antes de exibi-las
@@ -73,13 +70,13 @@ class Atleta {
       console.log(`Peso: ${atleta.obtemPesoAtleta()}`)
       console.log(`Altura: ${atleta.altura}`)
       console.log(`Notas: ${notasOrdenadas}`)
-      console.log(`Categoria: ${atleta.obtemCategorias()}`)
-      console.log(`IMC: ${atleta.calculaIMC()}`)
-      console.log(`Média válida: ${atleta.calculaMediaValida()}`)
+      console.log(`Categoria: ${atleta.obtemCategoria()}`)
+      console.log(`IMC: ${atleta.obtemIMC()}`)
+      console.log(`Média válida: ${atleta.obtemMediaValida()}`)
     }
 }
 //Declara atleta
 const atleta = new Atleta("Cesar Abascal", 30, 80, 1.70, [10, 9.34, 8.42, 10, 7.88]);
 
 //Exibe as informações do Atleta para o usuário
-console.log(atleta.exibirInformacoes());
+atleta.exibirInformacoes();
