@@ -7,6 +7,7 @@ O Floripa Mais Tec é uma iniciativa da Prefeitura de Florianópolis, em parceri
 (https://floripamaistec.pmf.sc.gov.br/)
 
 O presente código trata-se do segundo de dois projetos de certificação da Trilha 1 - Lógica de Programação do curso DEVstart. O primero projeto pode ser consultado no endereço https://github.com/mbrancos/notas-atletas/
+
 Neste segundo projeto, precisamos criar uma aplicação JavaScript que utiliza a classe `Atleta` para receber informações sobre atletas e calcular diversos parâmetros, tais como categoria, IMC (Índice de Massa Corporal) e média válida com base nas notas fornecidas.
 
 ## Especificações
